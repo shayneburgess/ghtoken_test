@@ -1,4 +1,4 @@
-name: Scheduled Pull
+name: Scheduled Create Pull
 
 on:
   schedule:
