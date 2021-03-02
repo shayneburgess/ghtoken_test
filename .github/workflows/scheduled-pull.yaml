@@ -47,6 +47,6 @@ jobs:
           [ "$VERSION" == "master" ] && VERSION=latest
           
           echo IMAGE_ID=$IMAGE_ID
-          echo VERSION=$VERSION
+          echo VERSION=latest
           
           docker pull $IMAGE_ID:$VERSION 
