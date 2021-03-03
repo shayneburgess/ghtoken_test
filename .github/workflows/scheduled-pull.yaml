@@ -49,4 +49,4 @@ jobs:
           echo IMAGE_ID=$IMAGE_ID
           echo VERSION=latest
           
-          docker pull $IMAGE_ID:$VERSION 
+          docker pull ghcr.io/sweethaven-village/ghtoken_fork_test:main
