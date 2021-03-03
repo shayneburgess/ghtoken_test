@@ -18,7 +18,7 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: gh_create_test
+  IMAGE_NAME: gh_create_test2
 
 jobs:
   # Push image to GitHub Packages.
