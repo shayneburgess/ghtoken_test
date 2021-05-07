@@ -18,7 +18,7 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: docker_create
+  IMAGE_NAME: docker_create_from_untrusted_user
 
 jobs:
   # Push image to GitHub Packages.
