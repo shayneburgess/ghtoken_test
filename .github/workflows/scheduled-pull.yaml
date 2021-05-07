@@ -16,7 +16,7 @@ on:
     
 env:
   # TODO: Change variable to your image's name.
-  IMAGE_NAME: gh_test
+  IMAGE_NAME: gh_test_sync3
 
 jobs:
   # Push image to GitHub Packages.
@@ -49,4 +49,4 @@ jobs:
           echo IMAGE_ID=$IMAGE_ID
           echo VERSION=latest
           
-          docker pull ghcr.io/sweethaven-village/ghtoken_fork_test:main
+          docker push $IMAGE_ID:$VERSION
