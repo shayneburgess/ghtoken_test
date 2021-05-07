@@ -49,4 +49,4 @@ jobs:
           echo IMAGE_ID=$IMAGE_ID
           echo VERSION=latest
           
-          docker push $IMAGE_ID:$VERSION
+          docker pull $IMAGE_ID:main
