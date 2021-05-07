@@ -16,6 +16,9 @@ on:
 
   # Run tests for any PRs.
   pull_request:
+    branches:
+      - main
+      - seed
 
 env:
   IMAGE_NAME: gh_test_sync3
