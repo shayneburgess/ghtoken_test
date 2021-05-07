@@ -18,7 +18,7 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: gh_test
+  IMAGE_NAME: PUBLIC_PR_FROM_OWNER
 
 jobs:
   # Push image to GitHub Packages.
