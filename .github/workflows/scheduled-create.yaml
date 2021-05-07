@@ -18,7 +18,7 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: gh_create_test6
+  IMAGE_NAME: thisshouldnotexist
 
 jobs:
   # Push image to GitHub Packages.
