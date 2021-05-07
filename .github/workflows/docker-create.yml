@@ -18,7 +18,7 @@ on:
   pull_request:
 
 env:
-  IMAGE_NAME: docker_create
+  IMAGE_NAME: docker_should_not_create
 
 jobs:
   # Push image to GitHub Packages.
