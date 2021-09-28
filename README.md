@@ -1,3 +1,3 @@
 # ghtoken_test
 
-Foo2
+Foo3
